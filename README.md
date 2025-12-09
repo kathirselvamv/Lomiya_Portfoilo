@@ -1,11 +1,3 @@
-Lomiya S - Java Developer Portfolio 🚀
-https://img.shields.io/badge/Portfolio-Ready-blue
-https://img.shields.io/badge/Deploy%2520on-Vercel-black
-https://img.shields.io/badge/Responsive-Design-green
-https://img.shields.io/badge/License-MIT-yellow
-
-A professional portfolio website for a Java Backend Developer with modern design, responsive layout, and multiple resume download options.
-
 ✨ Features
 🎯 Core Features
 Modern Blue & White Design - Clean, professional color scheme
@@ -46,11 +38,7 @@ Floating Button - Always-visible download button
 Technology	Purpose
 HTML5	Semantic markup structure
 CSS3	Styling with Grid & Flexbox
-JavaScript	Interactive functionality
-Font Awesome	Icons
-Google Fonts	Typography (Poppins & Inter)
-📁 File Structure
-text
+
 portfolio-lomiya/
 ├── index.html              # Main HTML file
 ├── style.css               # All CSS styles
@@ -60,9 +48,14 @@ portfolio-lomiya/
 │   └── resume.pdf          # Your resume in PDF format
 ├── vercel.json             # Vercel configuration
 └── README.md               # This file
+
+
+
 🚀 Quick Start
 Step 1: Download Files
-bash
+
+
+
 # Create project folder
 mkdir portfolio-lomiya
 cd portfolio-lomiya
@@ -76,27 +69,6 @@ cd portfolio-lomiya
 
 # Create assets folder
 mkdir assets
-Step 2: Add Your Files
-Profile Picture: Save as assets/mypic.jpg
-
-Recommended: 350x350 pixels, professional photo
-
-Resume PDF: Save as assets/resume.pdf
-
-Create PDF from Google Docs or Word
-
-Step 3: Customize Content
-Open index.html and update:
-
-Personal Info (lines 15-30): Name, email, phone, address
-
-Education (lines 200-250): Your education details
-
-Projects (lines 150-200): Your project descriptions
-
-Skills (lines 100-150): Your technical skills
-
-Contact (lines 300-350): Your contact information
-
-Step 4: Test Locally
-Open index.html in your browser to see your portfolio.
+JavaScript	Interactive functionality
+Font Awesome	Icons
+Google Fonts	Typography (Poppins & Inter)
