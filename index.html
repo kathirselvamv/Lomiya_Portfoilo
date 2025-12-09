@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomiya S | Java Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Lomiya<span>S</span></a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hello, I'm <span>Lomiya</span></h1>
+                    <h2 class="hero-subtitle">Java Backend Developer</h2>
+                    <p class="hero-description">
+                        Building scalable backend solutions with Spring Boot, REST APIs & MySQL. 
+                        Passionate about creating efficient, secure, and high-performance applications.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                        <!-- Option 1: Hero Section Resume Button -->
+                        <a href="assets/resume.pdf" download="Lomiya_Java_Developer_Resume.pdf" class="btn btn-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>slomiya565@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 94433 24834</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <div class="profile-image">
+                            <!-- Your Profile Picture -->
+                            <img src="assets/mypic.jpg" alt="Lomiya S" class="profile-pic" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>'">
+                        </div>
+                        <div class="profile-badge">
+                            <i class="fas fa-code"></i>
+                            <span>Java Developer</span>
+                        </div>
+                        <div class="profile-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tiruvannamalai, TN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Java Backend Developer</h3>
+                    <p>
+                        I'm a passionate Java Developer skilled in Spring Boot, REST API development, MySQL, 
+                        authentication flows, and backend architecture. I have hands-on experience building 
+                        secure, scalable backend modules, designing efficient database schemas, and optimizing 
+                        SQL queries.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <strong>Email:</strong>
+                            <span>slomiya565@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Phone:</strong>
+                            <span>9443324834</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Location:</strong>
+                            <span>Tiruvannamalai, Tamil Nadu</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Experience:</strong>
+                            <span>Entry Level Developer</span>
+                        </div>
+                    </div>
+                    
+                    <div class="objective">
+                        <h4><i class="fas fa-bullseye"></i> Objective</h4>
+                        <p>
+                            To obtain an entry-level software developer position where I can apply my skills 
+                            in Java, Spring Boot, HTML, and CSS, while gaining practical experience and 
+                            contributing to the success of the organization.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-server"></i>
+                        <h4>Backend Focus</h4>
+                        <p>Specialized in Java backend with Spring Boot</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Database Design</h4>
+                        <p>MySQL database design & optimization</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Security</h4>
+                        <p>Spring Security authentication & authorization</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>REST APIs</h4>
+                        <p>Scalable RESTful API development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Spring Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Hibernate/JPA</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database & Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Postman</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Maven</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Technologies -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C Programming</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>OOPs Concepts</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Multithreading</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Recent work I've completed</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="project-title">Student Management System</h3>
+                    <p class="project-description">
+                        A comprehensive CRUD-based system to manage student records, course enrollment, and performance tracking with secure authentication.
+                    </p>
+                    
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> REST APIs for frontend-backend integration</li>
+                        <li><i class="fas fa-check"></i> Spring Security for admin/user login</li>
+                        <li><i class="fas fa-check"></i> MySQL transactions for data consistency</li>
+                        <li><i class="fas fa-check"></i> Responsive HTML/CSS frontend</li>
+                    </ul>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>JWT</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="project-title">E-Commerce Backend API</h3>
+                    <p class="project-description">
+                        Secure e-commerce backend with product management, JWT authentication, shopping cart, and order processing capabilities.
+                    </p>
+                    
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> JWT-based authentication system</li>
+                        <li><i class="fas fa-check"></i> Product catalog with categories</li>
+                        <li><i class="fas fa-check"></i> Shopping cart functionality</li>
+                        <li><i class="fas fa-check"></i> Order processing system</li>
+                    </ul>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-tech">
+                            <span>Excel</span>
+                            <span>Data Analysis</span>
+                            <span>Dashboard</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="project-title">Data Analytics Dashboard</h3>
+                    <p class="project-description">
+                        Data Analysis using Microsoft Excel for linear advertising data with interactive dashboards and visualization tools.
+                    </p>
+                    
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Linear advertising data analysis</li>
+                        <li><i class="fas fa-check"></i> Interactive pivot table dashboards</li>
+                        <li><i class="fas fa-check"></i> Data visualization with charts</li>
+                        <li><i class="fas fa-check"></i> Marketing insights generation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            
+            <div class="education-timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2022 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>B.Sc Mathematics</h3>
+                        <p class="timeline-institution">Muthurangam Government Arts College, Vellore</p>
+                        <div class="timeline-grade">CGPA: 6.79</div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary (HSC)</h3>
+                        <p class="timeline-institution">Government Higher Secondary School</p>
+                        <div class="timeline-grade">Percentage: 73%</div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2019 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Secondary (SSLC)</h3>
+                        <p class="timeline-institution">Government High School, Melnager</p>
+                        <div class="timeline-grade">Percentage: 81%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <p class="section-subtitle">My accomplishments and certifications</p>
+            </div>
+            
+            <div class="achievements-grid">
+                <!-- Certifications -->
+                <div class="achievements-category">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <h4>Core Java Certification</h4>
+                            <p>OOPs, Collections, Exception Handling, JDBC, Multithreading, Generics</p>
+                        </div>
+                        <div class="certification-item">
+                            <h4>Software Development Fundamentals</h4>
+                            <p>Agile Methodology, SDLC, DSA Fundamentals</p>
+                        </div>
+                        <div class="certification-item">
+                            <h4>Spring Boot & Backend Development</h4>
+                            <p>REST APIs, Spring Security, Hibernate, MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Awards & Languages -->
+                <div class="achievements-category">
+                    <h3><i class="fas fa-trophy"></i> Awards & Languages</h3>
+                    <div class="awards-list">
+                        <div class="award-item">
+                            <h4>Sports Leadership</h4>
+                            <p>Kho-Kho Team Captain with 10+ sports certificates</p>
+                        </div>
+                        <div class="award-item">
+                            <h4>Language Proficiency</h4>
+                            <p>English (Professional), Tamil (Native)</p>
+                        </div>
+                        <div class="award-item">
+                            <h4>Continuous Learning</h4>
+                            <p>Actively learning Core Java concepts and building practical applications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's connect and work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card large">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h3>Email</h3>
+                            <p>slomiya565@gmail.com</p>
+                            <a href="mailto:slomiya565@gmail.com" class="contact-link">
+                                <i class="fas fa-paper-plane"></i> Send Email
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card large">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h3>Phone</h3>
+                            <p>+91 94433 24834</p>
+                            <a href="tel:+919443324834" class="contact-link">
+                                <i class="fas fa-phone-alt"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card large">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h3>Address</h3>
+                            <p>
+                                No.263, Kollai medu Street,<br>
+                                Chettiyanthal, Polur taluk,<br>
+                                Tiruvannamalai,<br>
+                                Tamil Nadu - 632315
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Option 2: Contact Section Resume Block -->
+                    <div class="contact-card large resume-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h3>Download Resume</h3>
+                            <p>Get detailed information about my skills, experience, and qualifications</p>
+                            <a href="assets/resume.pdf" download="Lomiya_Resume.pdf" class="contact-link">
+                                <i class="fas fa-download"></i> Download PDF Resume
+                            </a>
+                            <div class="resume-info">
+                                <small><i class="fas fa-info-circle"></i> Updated: December 2023 | File size: 2MB</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <h3>Connect with me</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" class="social-link" title="Portfolio">
+                            <i class="fas fa-globe"></i>
+                            <span>Portfolio</span>
+                        </a>
+                    </div>
+                    
+                    <div class="availability">
+                        <div class="status-indicator">
+                            <div class="status-dot available"></div>
+                            <span>Available for opportunities</span>
+                        </div>
+                        <p class="availability-note">
+                            I'm actively seeking Java Developer roles and open to internships, 
+                            freelance projects, and full-time positions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Lomiya<span>S</span></h2>
+                    <p>Java Backend Developer</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> slomiya565@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 94433 24834</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tiruvannamalai, TN</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Lomiya S. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> by Lomiya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 3: Floating Download Button -->
+    <a href="assets/resume.pdf" download="Lomiya_Resume.pdf" class="floating-download">
+        <i class="fas fa-file-download"></i>
+        <span>Resume</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
