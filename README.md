@@ -1,59 +1,102 @@
-# Lomiya S - Java Developer Portfolio
+Lomiya S - Java Developer Portfolio 🚀
+https://img.shields.io/badge/Portfolio-Ready-blue
+https://img.shields.io/badge/Deploy%2520on-Vercel-black
+https://img.shields.io/badge/Responsive-Design-green
+https://img.shields.io/badge/License-MIT-yellow
 
-## 🚀 Quick Deployment on Vercel
+A professional portfolio website for a Java Backend Developer with modern design, responsive layout, and multiple resume download options.
 
-### Step 1: Prepare Your Files
-1. **Create a folder** named `portfolio-lomiya`
-2. **Save these 4 files** in the folder:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `README.md` (this file)
+✨ Features
+🎯 Core Features
+Modern Blue & White Design - Clean, professional color scheme
 
-3. **Create `assets` folder** and add:
-   - `mypic.jpg` - Your profile picture
-   - `resume.pdf` - Your resume in PDF format
+Fully Responsive - Works on all devices (mobile, tablet, desktop)
 
-### Step 2: Create GitHub Repository
-1. Go to [GitHub](https://github.com)
-2. Click "New repository"
-3. Name it `portfolio-lomiya`
-4. Choose "Public"
-5. Click "Create repository"
+3 Resume Download Options - Multiple ways to access resume
 
-### Step 3: Upload Files to GitHub
-**Option A: Using GitHub Desktop (Recommended for beginners)**
-1. Download GitHub Desktop
-2. Clone your repository
-3. Copy all files to the repository folder
-4. Commit and push to GitHub
+Interactive Elements - Animated skill bars, smooth scrolling
 
-**Option B: Using GitHub Website**
-1. Go to your repository
-2. Click "Add file" → "Upload files"
-3. Drag and drop all files
-4. Click "Commit changes"
+Fast Loading - Optimized for performance
 
-### Step 4: Deploy on Vercel
-1. **Go to [vercel.com](https://vercel.com)**
-   - Sign up (use GitHub to login)
+SEO Friendly - Proper meta tags and structure
 
-2. **Import Repository**
-   - Click "Add New..." → "Project"
-   - Import your `portfolio-lomiya` repository
+📄 Resume Download Options
+Hero Button - Green download button in main section
 
-3. **Configure Project**
-   - Framework Preset: **Other**
-   - Build Command: *Leave empty*
-   - Output Directory: *Leave empty*
-   - Install Command: *Leave empty*
+Contact Card - Detailed resume section in contact area
 
-4. **Deploy**
-   - Click "Deploy"
-   - Wait 30-60 seconds
+Floating Button - Always-visible download button
 
-5. **Your Site is Live!**
-   - URL will be: `https://portfolio-lomiya.vercel.app`
-   - You can change the domain in settings
+📱 Sections Included
+✅ Home/Hero with profile picture
 
-## 📁 File Structure
+✅ About Me with personal details
+
+✅ Technical Skills with progress bars
+
+✅ Projects showcase with tech stack
+
+✅ Education timeline
+
+✅ Achievements & Certifications
+
+✅ Contact information with social links
+
+🛠️ Tech Stack
+Technology	Purpose
+HTML5	Semantic markup structure
+CSS3	Styling with Grid & Flexbox
+JavaScript	Interactive functionality
+Font Awesome	Icons
+Google Fonts	Typography (Poppins & Inter)
+📁 File Structure
+text
+portfolio-lomiya/
+├── index.html              # Main HTML file
+├── style.css               # All CSS styles
+├── script.js               # JavaScript functionality
+├── assets/
+│   ├── mypic.jpg           # Your profile picture
+│   └── resume.pdf          # Your resume in PDF format
+├── vercel.json             # Vercel configuration
+└── README.md               # This file
+🚀 Quick Start
+Step 1: Download Files
+bash
+# Create project folder
+mkdir portfolio-lomiya
+cd portfolio-lomiya
+
+# Download these files:
+# 1. index.html
+# 2. style.css  
+# 3. script.js
+# 4. vercel.json (optional)
+# 5. README.md (this file)
+
+# Create assets folder
+mkdir assets
+Step 2: Add Your Files
+Profile Picture: Save as assets/mypic.jpg
+
+Recommended: 350x350 pixels, professional photo
+
+Resume PDF: Save as assets/resume.pdf
+
+Create PDF from Google Docs or Word
+
+Step 3: Customize Content
+Open index.html and update:
+
+Personal Info (lines 15-30): Name, email, phone, address
+
+Education (lines 200-250): Your education details
+
+Projects (lines 150-200): Your project descriptions
+
+Skills (lines 100-150): Your technical skills
+
+Contact (lines 300-350): Your contact information
+
+Step 4: Test Locally
+Open index.html in your browser to see your portfolio.
