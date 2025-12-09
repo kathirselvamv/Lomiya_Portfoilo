@@ -39,16 +39,6 @@ Technology	Purpose
 HTML5	Semantic markup structure
 CSS3	Styling with Grid & Flexbox
 
-portfolio-lomiya/
-├── index.html              # Main HTML file
-├── style.css               # All CSS styles
-├── script.js               # JavaScript functionality
-├── assets/
-│   ├── mypic.jpg           # Your profile picture
-│   └── resume.pdf          # Your resume in PDF format
-├── vercel.json             # Vercel configuration
-└── README.md               # This file
-
 
 
 🚀 Quick Start
